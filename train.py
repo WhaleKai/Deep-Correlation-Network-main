@@ -35,7 +35,7 @@ if __name__ == '__main__':
     if not os.path.exists(save_path): os.mkdir(save_path)
     #if not os.path.exists(temp_save_path): os.mkdir(temp_save_path)
     lr = 0.001 #2
-    batch_size = 4
+    batch_size = 8
     epoch = 100
     lr_dec=[51]
     data = Data(img_root)
